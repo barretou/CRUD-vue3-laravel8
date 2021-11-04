@@ -26,6 +26,7 @@
 .title-aplicattion {
     font-size: 30px;
     font-weight: bold;
+    color: #34495e !important;
 }
 
 .navbar-nav, .navbar-collapse{
@@ -39,7 +40,7 @@
 }
 
 .bg-blue {
-    background-color: var(--purple) !important;
+    background-color: var(--green) !important;
   
 }
 </style>
