@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel=icon href=/img/check.png sizes="16x16" type="image/png">
     <meta name="csrf-token" value="{{ csrf_token() }}"/>
  
     <title>CRUD com Laravel 8 e Vue JS 3</title>
