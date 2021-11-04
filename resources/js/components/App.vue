@@ -4,11 +4,11 @@
             <span class="text-secondary title-aplicattion">CRUD com Laravel 8 e Vue JS 3</span>
         </div>
   
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
             <div class="collapse navbar-collapse">
                 <div class="navbar-nav">
-                    <router-link to="/" class="nav-item nav-link">Quadro de Tarefas</router-link>
-                    <router-link to="/add" class="nav-item nav-link">Aicionar Tarefa</router-link>
+                    <router-link to="/" class="nav-item nav-link">Tarefas</router-link>
+                    <router-link to="/add" class="nav-item nav-link">Adicionar Tarefa</router-link>
                 </div>
             </div>
         </nav>
@@ -31,11 +31,15 @@
 .navbar-nav, .navbar-collapse{
     display: flex;
     justify-content: center;
-    font-weight: bold;
 }
 
 .nav-link{
-    font-weight: bold;
     font-size: 1rem;
+    color: #fff !important;
+}
+
+.bg-blue {
+    background-color: var(--purple) !important;
+  
 }
 </style>

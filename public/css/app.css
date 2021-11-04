@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 @charset "UTF-8";
+.btn-primary {
+  background-color: #420fb6 !important;
+  border-color: #420fb6 !important;
+  color: #fff !important;
+}
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -9,7 +15,7 @@
 :root {
   --blue: #3490dc;
   --indigo: #6574cd;
-  --purple: #9561e2;
+  --purple: #420fb6;
   --pink: #f66d9b;
   --red: #e3342f;
   --orange: #f6993f;

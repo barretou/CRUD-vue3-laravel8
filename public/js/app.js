@@ -6639,7 +6639,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.title-aplicattion[data-v-332fccf4] {\r\n    font-size: 30px;\r\n    font-weight: bold;\n}\n.navbar-nav[data-v-332fccf4], .navbar-collapse[data-v-332fccf4]{\r\n    display: flex;\r\n    justify-content: center;\r\n    font-weight: bold;\n}\n.nav-link[data-v-332fccf4]{\r\n    font-weight: bold;\r\n    font-size: 1rem;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.title-aplicattion[data-v-332fccf4] {\r\n    font-size: 30px;\r\n    font-weight: bold;\n}\n.navbar-nav[data-v-332fccf4], .navbar-collapse[data-v-332fccf4]{\r\n    display: flex;\r\n    justify-content: center;\n}\n.nav-link[data-v-332fccf4]{\r\n    font-size: 1rem;\r\n    color: #fff !important;\n}\n.bg-blue[data-v-332fccf4] {\r\n    background-color: var(--purple) !important;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -38001,7 +38001,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("h3", { staticClass: "text-center" }, [_vm._v("Add Post")]),
+    _c("h3", { staticClass: "text-center" }, [_vm._v("Adicionar nova tarefa")]),
     _vm._v(" "),
     _c("div", { staticClass: "row" }, [
       _c("div", { staticClass: "col-md-6" }, [
@@ -38212,7 +38212,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "nav",
-        { staticClass: "navbar navbar-expand-lg navbar-light bg-light" },
+        { staticClass: "navbar navbar-expand-lg navbar-dark bg-blue" },
         [
           _c("div", { staticClass: "collapse navbar-collapse" }, [
             _c(
@@ -38222,13 +38222,13 @@ var render = function() {
                 _c(
                   "router-link",
                   { staticClass: "nav-item nav-link", attrs: { to: "/" } },
-                  [_vm._v("Quadro de Tarefas")]
+                  [_vm._v("Tarefas")]
                 ),
                 _vm._v(" "),
                 _c(
                   "router-link",
                   { staticClass: "nav-item nav-link", attrs: { to: "/add" } },
-                  [_vm._v("Aicionar Tarefa")]
+                  [_vm._v("Adicionar Tarefa")]
                 )
               ],
               1

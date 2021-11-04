@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3 class="text-center">Add Post</h3>
+        <h3 class="text-center">Adicionar nova tarefa</h3>
         <div class="row">
             <div class="col-md-6">
                 <form @submit.prevent="addPost">
